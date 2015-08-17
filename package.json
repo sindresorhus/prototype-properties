@@ -1,0 +1,45 @@
+{
+  "name": "proto-props",
+  "version": "0.0.0",
+  "description": "List of prototype properties for JavaScript types",
+  "license": "MIT",
+  "repository": "sindresorhus/proto-props",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && node test.js",
+    "generate": "node generate.js"
+  },
+  "main": "proto-props.json",
+  "files": [
+    "proto-props.json"
+  ],
+  "keywords": [
+    "js",
+    "javascript",
+    "ecmascript",
+    "builtin",
+    "types",
+    "type",
+    "data",
+    "proto",
+    "prototype",
+    "props",
+    "properties",
+    "property",
+    "list",
+    "array",
+    "json"
+  ],
+  "devDependencies": {
+    "ava": "0.0.4",
+    "js-types": "^1.0.0",
+    "xo": "*"
+  }
+}
