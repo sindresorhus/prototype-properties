@@ -1,10 +1,9 @@
-'use strict';
-var test = require('ava');
-var protoProps = require('./proto-props');
+import test from 'ava';
+import m from './proto-props';
 
-test(function (t) {
-	t.assert(Object.keys(protoProps).length > 0);
-	t.assert(protoProps.hasOwnProperty('Array'));
-	t.assert(protoProps.hasOwnProperty('Number'));
-	t.assert(protoProps.Array.indexOf('forEach') !== -1);
+test(t => {
+	t.true(Object.keys(m).length > 0);
+	t.true(m.hasOwnProperty('Array'));
+	t.true(m.hasOwnProperty('Number'));
+	t.true(m.Array.indexOf('forEach') !== -1);
 });

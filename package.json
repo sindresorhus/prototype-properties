@@ -13,8 +13,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && node test.js",
-    "generate": "node generate.js"
+    "test": "xo && ava",
+    "make": "node make.js"
   },
   "main": "proto-props.json",
   "files": [
@@ -38,7 +38,7 @@
     "json"
   ],
   "devDependencies": {
-    "ava": "0.0.4",
+    "ava": "*",
     "js-types": "^1.0.0",
     "xo": "*"
   }
