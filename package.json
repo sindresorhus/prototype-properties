@@ -10,7 +10,7 @@
     "url": "sindresorhus.com"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
     "test": "xo && ava",
@@ -25,6 +25,8 @@
     "javascript",
     "ecmascript",
     "builtin",
+    "core",
+    "standard",
     "types",
     "type",
     "data",
@@ -38,6 +40,7 @@
     "json"
   ],
   "devDependencies": {
+    "all-property-names": "^1.0.0",
     "ava": "*",
     "js-types": "^1.0.0",
     "xo": "*"

@@ -1,10 +1,12 @@
 'use strict';
-var fs = require('fs');
-var jsTypes = require('js-types');
-var ret = {};
+const fs = require('fs');
+const jsTypes = require('js-types');
+const allPropertyNames = require('all-property-names');
 
-jsTypes.forEach(function (x) {
-	ret[x] = Object.getOwnPropertyNames(global[x].prototype).sort();
-});
+const ret = Object.create(null);
+
+for (const type of jsTypes) {
+	ret[type] = [...allPropertyNames(global[type].prototype)].filter(x => !x.startsWith('__')).sort();
+}
 
 fs.writeFileSync('proto-props.json', JSON.stringify(ret, null, '\t'));
