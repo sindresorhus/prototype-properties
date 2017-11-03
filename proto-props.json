@@ -401,6 +401,7 @@
 	"RegExp": [
 		"compile",
 		"constructor",
+		"dotAll",
 		"exec",
 		"flags",
 		"global",
@@ -460,6 +461,8 @@
 		"localeCompare",
 		"match",
 		"normalize",
+		"padEnd",
+		"padStart",
 		"propertyIsEnumerable",
 		"repeat",
 		"replace",
