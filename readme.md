@@ -8,7 +8,7 @@ It's just a [JSON file](proto-props.json) and can be used wherever.
 ## Install
 
 ```
-$ npm install --save proto-props
+$ npm install proto-props
 ```
 
 
@@ -27,14 +27,14 @@ console.log(protoProps);
 		'toLocaleString',
 		'join',
 		'pop',
-		...
+		…
 	],
 	ArrayBuffer: [
 		'constructor',
 		'byteLength',
 		'slice'
 	],
-	...
+	…
 }
 */
 ```
