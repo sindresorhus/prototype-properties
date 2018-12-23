@@ -1,9 +1,9 @@
 import test from 'ava';
-import m from './proto-props';
+import protoProps from './proto-props';
 
-test(t => {
-	t.true(Object.keys(m).length > 0);
-	t.true('Array' in m);
-	t.true('Number' in m);
-	t.true(m.Array.indexOf('forEach') !== -1);
+test('main', t => {
+	t.true(Object.keys(protoProps).length > 0);
+	t.true('Array' in protoProps);
+	t.true('Number' in protoProps);
+	t.true(protoProps.Array.includes('forEach'));
 });

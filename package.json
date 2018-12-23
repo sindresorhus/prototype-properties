@@ -40,9 +40,9 @@
 		"json"
 	],
 	"devDependencies": {
-		"all-property-names": "^1.0.0",
-		"ava": "*",
-		"js-types": "^1.0.0",
-		"xo": "*"
+		"all-keys": "^2.0.0",
+		"ava": "^1.0.1",
+		"js-types": "^2.0.0",
+		"xo": "^0.23.0"
 	}
 }
