@@ -9,16 +9,18 @@
 		"email": "sindresorhus@gmail.com",
 		"url": "sindresorhus.com"
 	},
-	"main": "proto-props.json",
 	"engines": {
-		"node": ">=4"
+		"node": ">=8"
 	},
 	"scripts": {
-		"test": "xo && ava",
+		"test": "xo && ava && tsd",
 		"make": "node make.js"
 	},
 	"files": [
-		"proto-props.json"
+		"index.js",
+		"index.d.ts",
+		"proto-props.json",
+		"proto-props.json.d.ts"
 	],
 	"keywords": [
 		"js",
@@ -40,9 +42,10 @@
 		"json"
 	],
 	"devDependencies": {
-		"all-keys": "^2.0.0",
-		"ava": "^1.0.1",
-		"js-types": "^2.0.0",
-		"xo": "^0.23.0"
+		"all-keys": "^3.1.0",
+		"ava": "^1.4.1",
+		"js-types": "^2.1.0",
+		"tsd": "^0.7.2",
+		"xo": "^0.24.0"
 	}
 }

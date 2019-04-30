@@ -15,9 +15,9 @@ $ npm install proto-props
 ## Usage
 
 ```js
-const protoProps = require('proto-props');
+const prototypeProperties = require('proto-props');
 
-console.log(protoProps);
+console.log(prototypeProperties);
 /*
 {
 	Array: [
