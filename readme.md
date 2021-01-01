@@ -1,4 +1,4 @@
-# proto-props [![Build Status](https://travis-ci.org/sindresorhus/proto-props.svg?branch=master)](https://travis-ci.org/sindresorhus/proto-props)
+# proto-props
 
 > List of prototype properties for [JavaScript types](https://github.com/sindresorhus/js-types)
 
