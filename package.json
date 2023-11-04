@@ -4,23 +4,28 @@
 	"description": "List of prototype properties for JavaScript types",
 	"license": "MIT",
 	"repository": "sindresorhus/proto-props",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"sideEffects": false,
 	"engines": {
-		"node": ">=8"
+		"node": ">=18"
 	},
 	"scripts": {
-		"test": "xo && ava && tsd",
-		"make": "node make.js"
+		"test": "xo && ava && tsc index.d.ts",
+		"build": "node build.js"
 	},
 	"files": [
 		"index.js",
 		"index.d.ts",
-		"proto-props.json",
-		"proto-props.json.d.ts"
+		"proto-props.json"
 	],
 	"keywords": [
 		"js",
@@ -44,7 +49,7 @@
 	"devDependencies": {
 		"all-keys": "^3.1.0",
 		"ava": "^1.4.1",
-		"js-types": "^2.1.0",
+		"js-types": "^3.0.0",
 		"tsd": "^0.7.2",
 		"xo": "^0.24.0"
 	},

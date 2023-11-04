@@ -5,7 +5,7 @@ List of prototype properties for [JavaScript types](https://github.com/sindresor
 
 @example
 ```
-import prototypeProperties = require('proto-props');
+import prototypeProperties from 'proto-props';
 
 console.log(prototypeProperties);
 // {
