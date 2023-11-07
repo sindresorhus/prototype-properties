@@ -14,4 +14,4 @@ for (const type of jsTypes) {
 	result[type] = [...allKeys(prototype, {includeSymbols: false})].filter(x => !x.startsWith('__')).sort();
 }
 
-fs.writeFileSync('proto-props.json', JSON.stringify(result, undefined, '\t'));
+fs.writeFileSync('prototype-properties.json', JSON.stringify(result, undefined, '\t'));

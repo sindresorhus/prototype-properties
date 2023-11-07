@@ -1,19 +1,19 @@
-# proto-props
+# prototype-properties
 
 > List of prototype properties for [JavaScript types](https://github.com/sindresorhus/js-types)
 
-It's just a [JSON file](proto-props.json) and can be used wherever.
+It's just a [JSON file](prototype-properties.json) and can be used wherever.
 
 ## Install
 
 ```sh
-npm install proto-props
+npm install prototype-properties
 ```
 
 ## Usage
 
 ```js
-import prototypeProperties from 'proto-props';
+import prototypeProperties from 'prototype-properties';
 
 console.log(prototypeProperties);
 /*

@@ -47,17 +47,24 @@
 		"sort",
 		"splice",
 		"toLocaleString",
+		"toReversed",
+		"toSorted",
+		"toSpliced",
 		"toString",
 		"unshift",
 		"valueOf",
-		"values"
+		"values",
+		"with"
 	],
 	"ArrayBuffer": [
 		"byteLength",
 		"constructor",
 		"hasOwnProperty",
 		"isPrototypeOf",
+		"maxByteLength",
 		"propertyIsEnumerable",
+		"resizable",
+		"resize",
 		"slice",
 		"toLocaleString",
 		"toString",
@@ -108,9 +115,12 @@
 		"sort",
 		"subarray",
 		"toLocaleString",
+		"toReversed",
+		"toSorted",
 		"toString",
 		"valueOf",
-		"values"
+		"values",
+		"with"
 	],
 	"BigUint64Array": [
 		"BYTES_PER_ELEMENT",
@@ -148,9 +158,12 @@
 		"sort",
 		"subarray",
 		"toLocaleString",
+		"toReversed",
+		"toSorted",
 		"toString",
 		"valueOf",
-		"values"
+		"values",
+		"with"
 	],
 	"Boolean": [
 		"constructor",
@@ -314,9 +327,12 @@
 		"sort",
 		"subarray",
 		"toLocaleString",
+		"toReversed",
+		"toSorted",
 		"toString",
 		"valueOf",
-		"values"
+		"values",
+		"with"
 	],
 	"Float64Array": [
 		"BYTES_PER_ELEMENT",
@@ -354,9 +370,12 @@
 		"sort",
 		"subarray",
 		"toLocaleString",
+		"toReversed",
+		"toSorted",
 		"toString",
 		"valueOf",
-		"values"
+		"values",
+		"with"
 	],
 	"Function": [
 		"apply",
@@ -410,9 +429,12 @@
 		"sort",
 		"subarray",
 		"toLocaleString",
+		"toReversed",
+		"toSorted",
 		"toString",
 		"valueOf",
-		"values"
+		"values",
+		"with"
 	],
 	"Int32Array": [
 		"BYTES_PER_ELEMENT",
@@ -450,9 +472,12 @@
 		"sort",
 		"subarray",
 		"toLocaleString",
+		"toReversed",
+		"toSorted",
 		"toString",
 		"valueOf",
-		"values"
+		"values",
+		"with"
 	],
 	"Int8Array": [
 		"BYTES_PER_ELEMENT",
@@ -490,9 +515,12 @@
 		"sort",
 		"subarray",
 		"toLocaleString",
+		"toReversed",
+		"toSorted",
 		"toString",
 		"valueOf",
-		"values"
+		"values",
+		"with"
 	],
 	"Map": [
 		"clear",
@@ -587,6 +615,7 @@
 		"toLocaleString",
 		"toString",
 		"unicode",
+		"unicodeSets",
 		"valueOf"
 	],
 	"Set": [
@@ -610,8 +639,11 @@
 	"SharedArrayBuffer": [
 		"byteLength",
 		"constructor",
+		"grow",
+		"growable",
 		"hasOwnProperty",
 		"isPrototypeOf",
+		"maxByteLength",
 		"propertyIsEnumerable",
 		"slice",
 		"toLocaleString",
@@ -637,6 +669,7 @@
 		"includes",
 		"indexOf",
 		"isPrototypeOf",
+		"isWellFormed",
 		"italics",
 		"lastIndexOf",
 		"length",
@@ -667,6 +700,7 @@
 		"toLowerCase",
 		"toString",
 		"toUpperCase",
+		"toWellFormed",
 		"trim",
 		"trimEnd",
 		"trimLeft",
@@ -742,9 +776,12 @@
 		"sort",
 		"subarray",
 		"toLocaleString",
+		"toReversed",
+		"toSorted",
 		"toString",
 		"valueOf",
-		"values"
+		"values",
+		"with"
 	],
 	"Uint32Array": [
 		"BYTES_PER_ELEMENT",
@@ -782,9 +819,12 @@
 		"sort",
 		"subarray",
 		"toLocaleString",
+		"toReversed",
+		"toSorted",
 		"toString",
 		"valueOf",
-		"values"
+		"values",
+		"with"
 	],
 	"Uint8Array": [
 		"BYTES_PER_ELEMENT",
@@ -822,9 +862,12 @@
 		"sort",
 		"subarray",
 		"toLocaleString",
+		"toReversed",
+		"toSorted",
 		"toString",
 		"valueOf",
-		"values"
+		"values",
+		"with"
 	],
 	"Uint8ClampedArray": [
 		"BYTES_PER_ELEMENT",
@@ -862,9 +905,12 @@
 		"sort",
 		"subarray",
 		"toLocaleString",
+		"toReversed",
+		"toSorted",
 		"toString",
 		"valueOf",
-		"values"
+		"values",
+		"with"
 	],
 	"URIError": [
 		"constructor",

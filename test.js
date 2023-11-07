@@ -1,5 +1,5 @@
 import test from 'ava';
-import prototypeProperties from './proto-props.js';
+import prototypeProperties from './index.js';
 
 test('main', t => {
 	t.true(Object.keys(prototypeProperties).length > 0);

@@ -1,11 +1,11 @@
-import prototypePropertiesJson = require('./proto-props.json');
+import prototypePropertiesJson = require('./prototype-properties.json');
 
 /**
 List of prototype properties for [JavaScript types](https://github.com/sindresorhus/js-types).
 
 @example
 ```
-import prototypeProperties from 'proto-props';
+import prototypeProperties from 'prototype-properties';
 
 console.log(prototypeProperties);
 // {

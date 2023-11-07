@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('./proto-props.json');
+module.exports = require('./prototype-properties.json');
