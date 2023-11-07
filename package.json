@@ -1,6 +1,6 @@
 {
 	"name": "prototype-properties",
-	"version": "3.0.0",
+	"version": "4.0.0",
 	"description": "List of prototype properties for JavaScript types",
 	"license": "MIT",
 	"repository": "sindresorhus/prototype-properties",
