@@ -1,4 +1,5 @@
-import prototypePropertiesJson = require('./prototype-properties.json');
+// TOOD: When TypeScript supports `with`.
+// import prototypePropertiesJson from './prototype-properties.json' with {type: 'json'};
 
 /**
 List of prototype properties for [JavaScript types](https://github.com/sindresorhus/js-types).
@@ -27,6 +28,7 @@ console.log(prototypeProperties);
 // }
 ```
 */
-declare const prototypeProperties: typeof prototypePropertiesJson;
+// declare const prototypeProperties: typeof prototypePropertiesJson;
+declare const prototypeProperties: Record<string, readonly string[]>;
 
-export = prototypeProperties;
+export default prototypeProperties;
